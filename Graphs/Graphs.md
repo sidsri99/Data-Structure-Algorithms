@@ -7,3 +7,9 @@
 ## Edges
 #### Edges are lines connecting nodes of a graph
 
+## Algorithms
+#### BFS
+#### DFS
+#### Prims
+#### Kruskals
+
