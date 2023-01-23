@@ -1,0 +1,17 @@
+String Functions in Java
+
+charAt()
+compareTo()
+concate()
+equals()
+equalsIgnoreCase()
+indexOf()
+length()
+replace()
+replaceFirst()
+replaceAll()
+split()
+substring()
+toLowerCase()
+toUpperCase()
+trim()
