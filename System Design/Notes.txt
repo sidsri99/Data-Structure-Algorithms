@@ -1,3 +1,6 @@
 System design
 
 System Design is the process of designing the architecture, components, and interfaces for a system so that it meets the end-user requirements.
+
+
+Use Case diagram: Use case diagram are simplified diagram or map that defines who the user of the system are and what operations or functions they need to perform.
