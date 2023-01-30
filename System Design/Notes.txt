@@ -4,3 +4,11 @@ System Design is the process of designing the architecture, components, and inte
 
 
 Use Case diagram: Use case diagram are simplified diagram or map that defines who the user of the system are and what operations or functions they need to perform.
+
+Software Development Life Cycle(SDLC) : 
+  i.   Planning and requirement analysis.
+  ii.  Defining Requirement.
+  iii. Designing architechture.
+  iv.  Developing Product.
+  v.   Project Testing & Integration.
+  vi.  Deployment & maintainance of product.
