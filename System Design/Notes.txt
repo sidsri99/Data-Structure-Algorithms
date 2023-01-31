@@ -12,3 +12,8 @@ Software Development Life Cycle(SDLC) :
   iv.  Developing Product.
   v.   Project Testing & Integration.
   vi.  Deployment & maintainance of product.
+
+Scalibility is the ability to adjust the capacity of the system to cost efficiently fulfill the demands.
+Horizontal scaling and Vertical Scaling: 
+Vertical scaling is accomplished by upgrading the hardware and/or network throughput.
+Horizontal scaling is accomplished by increasing number of servers.
