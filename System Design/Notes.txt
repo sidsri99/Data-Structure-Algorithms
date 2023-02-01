@@ -17,3 +17,5 @@ Scalibility is the ability to adjust the capacity of the system to cost efficien
 Horizontal scaling and Vertical Scaling: 
 Vertical scaling is accomplished by upgrading the hardware and/or network throughput.
 Horizontal scaling is accomplished by increasing number of servers.
+
+Load Balancer: A Load balancer is a software or hardware component that distributes traffic coming to a single IP address over multiple servers, which are hidden behind  the load balancer.
