@@ -5,7 +5,8 @@ System Design is the process of designing the architecture, components, and inte
 
 Use Case diagram: Use case diagram are simplified diagram or map that defines who the user of the system are and what operations or functions they need to perform.
 
-Software Development Life Cycle(SDLC) : 
+Software Development Life Cycle(SDLC) :
+
   i.   Planning and requirement analysis.
   ii.  Defining Requirement.
   iii. Designing architechture.
@@ -14,6 +15,7 @@ Software Development Life Cycle(SDLC) :
   vi.  Deployment & maintainance of product.
 
 Scalibility is the ability to adjust the capacity of the system to cost efficiently fulfill the demands.
+
 Horizontal scaling and Vertical Scaling: 
 Vertical scaling is accomplished by upgrading the hardware and/or network throughput.
 Horizontal scaling is accomplished by increasing number of servers.
