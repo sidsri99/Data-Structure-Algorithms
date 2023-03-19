@@ -12,4 +12,6 @@
 #### DFS
 #### Prims
 #### Kruskals
+#### Cycle Algorithm
+#### Shortest Path
 
