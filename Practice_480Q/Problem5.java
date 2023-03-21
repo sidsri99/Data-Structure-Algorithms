@@ -6,15 +6,15 @@
 
 import java.io.*;
 class Problem5{
-    int gcd(int a,int b){
-        if(b == 0)return a;
-        return gcd(b,a%b);
+    long gcd(long a, long b){
+        if(a == 0)return b;
+        return gcd(b%a,a);
     }
-    int lcm(int a,int b){
+    long lcm(long a,long b){
         return (a*b / gcd(a,b));
     }
-    int SmallMultiple(int num){
-        int multiple = 1;
+    long SmallMultiple(int num){
+        long multiple = 1;
         for( int i = 2; i<=num ; i++ ){
             multiple = lcm(multiple, i); 
         }
@@ -32,5 +32,17 @@ class Problem5{
 }
 /*
 Output:
-
+>javac Problem5.java
+>java Problem5
+>5
+>5
+60
+>7
+420
+>10
+2520
+>13
+360360
+>20
+232792560
 */
