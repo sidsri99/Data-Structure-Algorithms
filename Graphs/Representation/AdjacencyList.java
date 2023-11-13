@@ -1,14 +1,14 @@
 import java.util.*;
 
 class AdjacencyList{
-    class Edge{
+    static class Edge{
         int src;
         int dest;
         Edge(int s, int d){
             this.src  = s;
             this.dest = d;
         }
-        void createGraph(ArrayList<Edge> graph[]){
+        public static void createGraph(ArrayList<Edge> graph[]){
             for(int i=0; i<graph.length;i++){
                 graph[i] = new ArrayList<Edge>();
             }
@@ -22,6 +22,11 @@ class AdjacencyList{
     public static void main(String args[])throws Exception{
         int v = 4;
         ArrayList<Edge> graph[]=new ArrayList[v];
-        
+        Edge.createGraph(graph);
+        // Print neighbour of edge 2        
+        for(int i=0;i<graph[2].size();i++){
+            Edge e = graph[2].get(i);
+            System.out.println(e.dest);
+        }
     }
 }
