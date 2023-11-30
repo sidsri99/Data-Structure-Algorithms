@@ -4,17 +4,23 @@ class Hanoi {
 
     public long toh(int N, int from, int to, int aux) {
         // Your code here
-        if(N>1){
-            toh(N-1, from, aux, to);
+        long move=0;   //++V1
+        if(N>=1){
+//            toh(N-1, from, aux, to);
+            move += toh(N-1,from, aux, to);    //++V1
             System.out.println("move disk "+N+" from rod "+from+" to rod "+to);
-            toh(N-1,aux, to, from );
-            return (long)(Math.pow(2,N)-1);
+            move++;
+//            toh(N-1,aux, to, from );
+            move +=toh(N-1, aux, to, from);
+            //return (long)(Math.pow(2,N)-1);
         }
-        else if(N==1){
+/*        else if(N==1){
             System.out.println("move disk "+N+" from rod "+from+" to rod "+to);
             return 1;
         }
         return 0;
+*/        
+        return move;
     }
     public static void main(String[] arg){
         Scanner sc = new Scanner(System.in);
