@@ -13,7 +13,8 @@ class Problem15{
 			arr[s.charAt(right)-65]++;
 			
 			max = Math.max(max, arr[s.charAt(right)-65]);
-			if(right-left+1-max > k){
+			//if(right-left+1-max > k){
+			while(right-left+1-max > k){
 				arr[s.charAt(left)-65]--;
 				left++;
 			}
