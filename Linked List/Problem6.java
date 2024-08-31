@@ -42,4 +42,20 @@ class Solution {
         temp.next = temp.next.next;
         return head;
     }
+	
+	public ListNode removeNthFromEnd_Better(ListNode head, int n) {
+        ListNode temp = head;
+        int count = 0;
+        while(temp != null){
+            temp = temp.next;
+            count++;
+        }
+        if(n == count)return head.next;
+        count = count-n;
+        temp = head;
+        while(--count>0)
+            temp = temp.next;
+        temp.next = temp.next.next;
+        return head;
+    }
 }
